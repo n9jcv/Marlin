@@ -282,7 +282,8 @@
   #define TFT_RST_PIN                       PC6
   #define TFT_A0_PIN                  TFT_DC_PIN
 
-  #define TFT_RESET_PIN                     PC6
+//N9JCV COMMENT OUT OTHERWISE FLASH/REBOOT FAILS WITH WHITE SCREEN
+//  #define TFT_RESET_PIN                     PC6
   #define TFT_BACKLIGHT_PIN                 PD13
 
   #define TOUCH_BUTTONS_HW_SPI
